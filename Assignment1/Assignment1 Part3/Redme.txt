@@ -1,0 +1,5 @@
+1. 3.1 contains answer of part 1 of ques3 with single function input
+2. 3.1MultiFunctions contains answer of part 1 of ques3 with multiple function input
+3. 3.2 contains answer of part 2 of ques3 with single function input
+4. 3.2MultiFunctions contains answer of part 2 of ques3 with multiple function input
+
