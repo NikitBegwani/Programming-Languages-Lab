@@ -2,9 +2,6 @@ successor(M,R):- append(M,[x],R).	/**find the next number**/
 
 plus(M,N,R):- append(M,N,R).	/**find the sum by appending both the list**/
 	
-minus(M,N,R):- length(N,X),		/**find the differnece between both the list, with greater list as first input**/
-			   length(P,X),
-			   append(P,R,M).
 
 
 first(L, A) :-				/**Used by multiplication to halve the list**/
