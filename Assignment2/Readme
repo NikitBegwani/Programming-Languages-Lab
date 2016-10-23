@@ -1,0 +1,26 @@
+These prolog assignments were written using SWI-Prolog.
+
+Assignment2-part1-
+
+a) Logic for successor is to append 1 to input list
+b) Logic for plus is to append both the input list and output the result
+c) Logic for minus is to remove one element each time from both the input list as soon as one of the list becomes empty.
+   we check if its the first or second, assuming the first list to be the bigger one, we print the remaining elements in first list
+   if its empty, we print blank list.
+d) Logic for multiply is we first find out cartesian product of both the list then , we flatten the list. i.e. join all the list within the list
+   after that we tak one half of the flattened list as answer
+   Example:- [x,x]X[x,x,x] -- cartesian product :- [[x,x],[x,x],[x,x],[x,x],[x,x],[x,x]] 
+   -- flattened list :- [x,x,x,x,x,x,x,x,x,x,x,x]-- Result :- [x,x,x,x,x,x].
+e) Logic for divide is, each time we remove elements of length(divisor), if the remainder is 0, we print true else false.
+
+Assignment2-Part 2(a):-
+
+we first establish possible movements and some ground truth rules for direction , then , we traverse the input list and check what is the final orientation and position of pointer following the above mentioned ground truth direction rules and movements.
+
+Assignment2-Part 2(b):-
+
+At each step we compare the destination point with the current location andaccording to the current-orientation, we make the movement by adding +1 or -1 in current_location in y or x direction 
+
+Assignment2-Part3:-
+
+We first create a list of list with each sublist representing a pizza, we follow the steps given in question and code it in prolog language after which we run a permutation and select operation which assigns a unique possibility by keeping in mind the condition specified previously.
