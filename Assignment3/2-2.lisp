@@ -16,10 +16,8 @@
       LET ((incr (/ (- b a) n)))
       (
         let ((res (+ (funcall f a) (funcall f b))) )
-        ;(format t "incr = ~6f ,res = ~2d " incr res)
         (setq st a)
         (loop for x from 1 to (- n 1)
-          ;(+ st incr)
           do ( setq res (+ res (* 2 (funcall f (+ a (* x incr))))) )
         )
         (format t "Area is: ~D: " (float (* res (/ incr 2))))

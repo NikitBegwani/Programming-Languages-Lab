@@ -16,7 +16,6 @@
       LET ((incr (/ (- b a) n)))
       (
         let ((res (+ (funcall f a) (funcall f b))) )
-        (format t "incr = ~2f ,res = ~2d" incr res)
         (loop for x from 1 to (- n 1)
          if(oddp x)
             do ( setq res (+ res (* 4 (funcall f (+ a (* x incr))))) )
